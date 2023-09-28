@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Kato's Clean Energy Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2ecc71; /* Green background for clean energy */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-pic {
+            max-width: 100%;
+            border-radius: 50%;
+            float: left; /* Float the picture to the left */
+            margin-right: 20px;
+        }
+
+        /* Battery image styling */
+        .battery {
+            width: 60px; /* Adjust the size of the battery */
+            height: auto;
+            margin-top: 10px; /* Add some top margin to separate it from the header */
+        }
+
+        /* Clean energy accent color for links */
+        .clean-energy-link {
+            color: #2ecc71; /* Green color for clean energy links */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="battery-icon.png" alt="Battery Icon" class="battery">
+        <h1>Dylan Kato's Clean Energy Page</h1>
+    </header>
+    <nav>
+        <a href="#about" class="clean-energy-link">About Me</a>
+        <a href="#portfolio" class="clean-energy-link">My Work</a>
+        <a href="#contact" class="clean-energy-link">Contact</a>
+    </nav>
+    <div class="container">
+        <img src="your-cool-picture.jpg" alt="Dylan Kato" class="profile-pic">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+        <h2>My Work</h2>
+        <p>Display your clean energy projects and achievements here.</p>
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:youremail@example.com" class="clean-energy-link">youremail@example.com</a>.</p>
+    </div>
+</body>
+</html>
