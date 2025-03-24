@@ -1,5 +1,5 @@
 ---
-title: Math Typesetting in Md and Jekyll
+title: Math Typesetting in Markdown and Jekyll
 categories:
 - Math
 - WebDev
